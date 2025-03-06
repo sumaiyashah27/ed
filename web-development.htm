@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Octa Coders - Expert in Software Development, App Development, SEO, and more. Helping businesses thrive in the digital landscape.">
+    <meta name="keywords" content="App Development, Android Development, Software Development, Ecommerce Development, iOS Development, WordPress Development, Shopify Development, Mobile App, Custom Website Development, Payment Integration, SEO, Running ads, Advertising page Design, Event invitation page Design, Selling Book/Product page, Business Card, Logo">
+    <meta name="author" content="Octa Coders">
+    <title>Web Development | Octa Coders</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+
+    <style>
+        /* General Styling */
+        body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
+        .section-title { font-size: 24px; font-weight: bold; margin-bottom: 20px; }
+        
+        /* Client Logo Scroller */
+        .client-logos {
+            background: #f8f8f8;
+            padding: 40px 0;
+            overflow: hidden;
+            position: relative;
+        }
+        .logo-slider {
+            display: flex;
+            width: calc(200px * 10); /* Adjust based on total logos */
+            animation: scroll 10s linear infinite;
+        }
+        .logo-slide {
+            width: 200px;
+            margin: 0 20px;
+        }
+        .logo-slide img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Animation for horizontal scrolling */
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-220px); } /* Moves 1 logo width per step */
+        }
+    </style>
+</head>
+<body oncontextmenu="return false;">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.htm">Octa Coders</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>High-Performance Web Development</h1>
+        <p>Transform your online presence with our cutting-edge web development solutions.</p>
+    </header>
+
+    <!-- Key Features Section -->
+    <section class="container">
+        <h2 class="section-title">Why Choose Our Web Development Services?</h2>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-mobile-alt text-primary"></i>
+                <h3>Mobile-Friendly & Responsive Design</h3>
+                <p>Our websites are fully optimized for mobile, tablet, and desktop devices to ensure a seamless user experience across all screen sizes.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-tachometer-alt text-danger"></i>
+                <h3>Fast Loading Speed Optimization</h3>
+                <p>We optimize images, scripts, and server configurations to ensure lightning-fast page load speeds, improving user retention and SEO rankings.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-search text-success"></i>
+                <h3>SEO & Google Ranking Optimization</h3>
+                <p>Our websites are built with SEO best practices, including clean code, structured data, and keyword optimization to enhance search engine visibility.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-video text-warning"></i>
+                <h3>Video Intros & Interactive UI Elements</h3>
+                <p>Engage users with stunning animations, video backgrounds, and interactive elements that make your website stand out.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt text-info"></i>
+                <h3>Secure & Scalable Website Architecture</h3>
+                <p>We prioritize security with SSL encryption, firewalls, and data protection strategies, ensuring a robust and scalable website infrastructure.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Client Logo Scroller -->
+    <section class="client-logos">
+        <h2 class="section-title">Trusted by Leading Brands</h2>
+        <div class="logo-container">
+            <div class="logo-slider">
+                <div class="logo-slide"><img src="client1.png" alt="Client 1"></div>
+                <div class="logo-slide"><img src="client2.png" alt="Client 2"></div>
+                <div class="logo-slide"><img src="client3.png" alt="Client 3"></div>
+                <div class="logo-slide"><img src="client4.png" alt="Client 4"></div>
+                <div class="logo-slide"><img src="client5.png" alt="Client 5"></div>
+                <div class="logo-slide"><img src="client6.png" alt="Client 6"></div>
+                <div class="logo-slide"><img src="client7.png" alt="Client 7"></div>
+                <div class="logo-slide"><img src="client8.png" alt="Client 8"></div>
+                <div class="logo-slide"><img src="client9.png" alt="Client 9"></div>
+                <div class="logo-slide"><img src="client10.png" alt="Client 10"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action -->
+    <section class="cta">
+        <h2>Ready to Elevate Your Online Presence?</h2>
+        <a href="contact.html" class="btn btn-primary">Get a Free Consultation</a>
+    </section>
+
+</body>
+</html>

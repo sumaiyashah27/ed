@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Octa Coders - Expert in Software Development, App Development, SEO, and more. Helping businesses thrive in the digital landscape.">
+    <meta name="keywords" content="App Development, Android Development, Software Development, Ecommerce Development, iOS Development, WordPress Development, Shopify Development, Mobile App, Custom Website Development, Payment Integration, SEO, Running ads, Advertising page Design, Event invitation page Design, Selling Book/Product page, Business Card, Logo">
+    <meta name="author" content="Octa Coders">
+    <title>Octa Coders</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+</head>
+<body oncontextmenu="return false;"> <!-- Disables right-click -->
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <video id="preloader-video" autoplay muted playsinline>
+            <source src="octa-preload.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+     <!-- Main Content -->
+     <div id="main-content" style="display: none;">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Octa Coders</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        
+                        <!-- Services Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="#web-development">Web Development</a></li>
+                                <li><a class="dropdown-item" href="#ecommerce">eCommerce Solutions</a></li>
+                                <li><a class="dropdown-item" href="#mobile-apps">Mobile App Development</a></li>
+                                <li><a class="dropdown-item" href="#seo-marketing">SEO & Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="#video-editing">Video Editing & Ads</a></li>
+                                <li><a class="dropdown-item" href="#graphic-design">Graphic Design</a></li>
+                                <li><a class="dropdown-item" href="#payment-integration">Payment Integration</a></li>
+                                <li><a class="dropdown-item" href="#maintenance">Web & App Maintenance</a></li>
+                                <li><a class="dropdown-item" href="#email-marketing">Email Marketing</a></li>
+                            </ul>
+                        </li>
+        
+                        <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <!-- WhatsApp Button -->
+                        <li class="nav-item">
+                            <a class="btn btn-success ms-2" onclick="openWhatsApp()">
+                                <i class="fab fa-whatsapp"></i> WhatsApp Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <video autoplay muted loop playsinline id="hero-video">
+                <source src="Hero-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </header>
+        
+        <!-- About Section -->
+        <section id="about" class="container-fluid position-relative py-5" data-aos="fade-up">
+            <!-- Background Overlay -->
+            <div class="about-overlay"></div>
+            
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Image Column -->
+                    <div class="col-lg-6 mb-4" data-aos="zoom-in">
+                        <img src="about.jpg" class="img-fluid about-image rounded shadow-lg" alt="Octa Coders Team">
+                    </div>
+
+                    <!-- Content Column -->
+                    <div class="col-lg-6 about-content text-light" data-aos="fade-left">
+                        <h3 class="fw-bold">Crafting Solutions for Business Success</h3>
+                        <p>
+                            At <strong>Octa Coders</strong>, we are a team of creative coders and IT consultants dedicated to crafting 
+                            cutting-edge solutions that drive business success. With expertise in <strong class=" text-warning"> IT Services</strong>, <strong class=" text-warning">Software Development</strong>,
+                            and <strong class=" text-warning"> Digital Transformation</strong>, we provide tailored solutions to meet the unique needs of our clients.
+                        </p>
+                        <p>From custom software and mobile app development to eCommerce solutions, SEO, and payment integration, we help businesses scale, innovate, and thrive in the digital world.
+                        </p>
+
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-diamond text-warning"></i> IT Consulting & Strategy</li>
+                            <li><i class="fas fa-diamond text-warning"></i> Custom Web & App Development</li>
+                            <li><i class="fas fa-diamond text-warning"></i> E-commerce & Payment Integration</li>
+                            <li><i class="fas fa-diamond text-warning"></i> SEO, Digital Marketing & Branding</li>
+                        </ul>
+
+                        <p class="mt-3 fw-bold">
+                            💡 Let’s craft your success story with innovative IT solutions!
+                        </p>
+
+                        <a href="#contact" class="btn btn-light mt-3 px-4 py-2 btn-hover">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- Services Section -->
+        <section id="services" class="container">
+            <h2 class="text-center"><i class="fas fa-cogs fa-spin"></i> Our Services</h2>
+            <!--web-development  -->
+            <section id="web-development" class="container">
+                <h3 class="fw-bold text-center">High-Performance Web Development</h3>
+                <div class="row align-items-center ">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline style="border: none;">
+                            <source src="Website-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>
+                            We create websites that are not only visually stunning but also optimized for speed, responsiveness, and user engagement.
+                        </p>
+                        
+                        <h5 class="text-dark">Key Features:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-mobile-alt text-primary"></i> Mobile-Friendly & Responsive Design</li>
+                            <li><i class="fas fa-tachometer-alt text-danger"></i> Fast Loading Speed Optimization</li>
+                            <li><i class="fas fa-search text-success"></i> SEO & Google Ranking Optimization</li>
+                            <li><i class="fas fa-video text-warning"></i> Video Intros & Interactive UI Elements</li>
+                            <li><i class="fas fa-shield-alt text-info"></i> Secure & Scalable Website Architecture</li>
+                        </ul>                    
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ecommerce -->
+            <section id="ecommerce" class="container">
+                <h3 class="fw-bold text-center">Seamless & Scalable eCommerce Solutions</h3>
+                <div class="row align-items-center my-4 flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline>
+                            <source src="eCommerce-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>
+                            We build high-performance eCommerce platforms that provide seamless user experience, secure transactions, and powerful management tools.
+                        </p>
+                        
+                        <h5 class="text-dark">Key Features:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-mobile-alt text-primary"></i> Mobile-Optimized eCommerce Websites</li>
+                            <li><i class="fas fa-lock text-danger"></i> Secure Payment Gateway Integration</li>
+                            <li><i class="fas fa-tachometer-alt text-success"></i> High-Speed Performance & Scalability</li>
+                            <li><i class="fas fa-chart-line text-warning"></i> SEO & Conversion Rate Optimization</li>
+                            <li><i class="fas fa-warehouse text-info"></i> Inventory & Order Management Systems</li>
+                        </ul>                    
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- mobile-apps -->
+            <section id="mobile-apps" class="container">
+                <h3 class="fw-bold text-center">Innovative Mobile App Development</h3>
+                <div class="row align-items-center my-4">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline>
+                            <source src="mobile-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>
+                            We design and develop feature-rich mobile applications for Android & iOS, ensuring smooth performance, security, and a user-friendly experience.
+                        </p>
+                
+                        <h5 class="text-dark">Our Expertise:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-code text-primary"></i> Native & Cross-Platform Development</li>
+                            <li><i class="fas fa-paint-brush text-danger"></i> UI/UX-Optimized Mobile Apps</li>
+                            <li><i class="fas fa-plug text-success"></i> API & Third-Party Integrations</li>
+                            <li><i class="fas fa-shield-alt text-warning"></i> Performance & Security Optimization</li>
+                            <li><i class="fas fa-store text-info"></i> App Store Optimization (ASO) & Monetization</li>
+                        </ul>                    
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <!-- seo-marketing -->
+            <section id="seo-marketing" class="container">
+                <h3 class="fw-bold text-center">SEO & Digital Marketing</h3>
+                <div class="row align-items-center my-4 flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline>
+                            <source src="seo-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>
+                            Boost your brand visibility and generate high-quality leads with our expert SEO and digital marketing strategies.
+                        </p>
+                
+                        <h5 class="text-dark">Our Services:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-search text-primary"></i> Search Engine Optimization (SEO)</li>
+                            <li><i class="fas fa-mouse-pointer text-danger"></i> Pay-Per-Click (PPC) Advertising</li>
+                            <li><i class="fas fa-share-alt text-success"></i> Social Media Marketing (SMM)</li>
+                            <li><i class="fas fa-edit text-info"></i> Content Marketing & Blogging</li>
+                            <li><i class="fas fa-envelope-open-text text-warning"></i> Email Marketing & Lead Generation</li>
+                            <li><i class="fas fa-chart-line text-secondary"></i> Google Analytics & Conversion Tracking</li>
+                        </ul>                    
+                    
+                    </div>
+                </div>
+            </section>
+            
+            <!-- video-editing -->
+            <section id="video-editing" class="container">
+                <h3 class="fw-bold text-center">Video Editing & Ads Creation</h3>
+                <div class="row align-items-center my-4">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline>
+                            <source src="Add-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>
+                            Engage your audience with high-quality video content and compelling advertisements crafted for your brand.
+                        </p>
+                
+                        <h5 class="text-dark">Our Services:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-play-circle text-danger"></i> Promotional & Branding Videos</li>
+                            <li><i class="fas fa-bullhorn text-primary"></i> Social Media Ad Creation (Instagram, Facebook, YouTube, TikTok)</li>
+                            <li><i class="fas fa-film text-success"></i> Corporate & Explainer Videos</li>
+                            <li><i class="fas fa-photo-video text-info"></i> Motion Graphics & Animation</li>
+                            <li><i class="fas fa-magic text-secondary"></i> Professional Editing & Effects</li>
+                            <li><i class="fas fa-video text-warning"></i> YouTube Video Editing & Monetization Optimization</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </section>
+            
+            <!-- graphic-design -->
+            <section id="graphic-design" class="container">
+                <h3 class="fw-bold text-center">Business Cards, Posters & Invitation Design</h3>
+                <div class="row align-items-center my-4 flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline>
+                            <source src="Design-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>
+                            Elevate your brand and special events with custom, high-quality designs tailored to your needs.
+                        </p>
+                    
+                        <h5 class="text-dark">Our Design Services:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-id-card-alt text-primary"></i> Professional Business Card Designs</li>
+                            <li><i class="fas fa-image text-danger"></i> Custom Posters & Banners</li>
+                            <li><i class="fas fa-envelope-open-text text-success"></i> Digital & Print Invitation Cards</li>
+                            <li><i class="fas fa-file-alt text-info"></i> Brochures & Flyers</li>
+                            <li><i class="fas fa-palette text-secondary"></i> Logo & Branding Elements</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </section>
+            
+            <!-- payment-integration -->
+            <section id="payment-integration" class="container">
+                <h3 class="fw-bold text-center">Payment Integration</h3>
+                <div class="row align-items-center my-4">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline>
+                            <source src="Payment-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>We integrate secure and seamless payment gateways for your business.</p>
+                
+                        <h5 class="text-dark">Supported Payment Gateways:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-credit-card text-primary"></i> Stripe</li>
+                            <li><i class="fas fa-university text-success"></i> Razorpay</li>
+                            <li><i class="fab fa-cc-paypal text-info"></i> PayPal</li>
+                            <li><i class="fas fa-wallet text-warning"></i> Google Pay & Apple Pay</li>
+                            <li><i class="fas fa-money-bill-wave text-secondary"></i> UPI & Net Banking</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <!-- maintenance -->
+            <section id="maintenance" class="container">
+                <h3 class="fw-bold text-center">Web & App Maintenance & Feature Updates</h3>
+                <div class="row align-items-center my-4 flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline>
+                            <source src="Maintenance-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>Ensure your website and app run smoothly with our regular maintenance and feature updates.</p>
+                
+                        <h5 class="text-dark">Our Maintenance Services:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-sync-alt text-success"></i> Performance Optimization</li>
+                            <li><i class="fas fa-bug text-danger"></i> Bug Fixes & Security Patches</li>
+                            <li><i class="fas fa-cogs text-warning"></i> Feature Enhancements</li>
+                            <li><i class="fas fa-database text-info"></i> Database Management</li>
+                            <li><i class="fas fa-chart-line text-secondary"></i> SEO & Speed Optimization</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </section>
+
+            <!-- email-marketing -->
+            <section id="email-marketing" class="container">
+                <h3 class="fw-bold text-center">Email Marketing</h3>
+                <div class="row align-items-center my-4">
+                    <div class="col-md-6">
+                        <video class="service-video" autoplay muted loop playsinline>
+                            <source src="Email-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p>Boost engagement and conversions with our tailored email marketing strategies.</p>
+                
+                        <h5 class="text-dark">Our Email Marketing Services:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-envelope-open-text text-success"></i> Personalized Email Campaigns</li>
+                            <li><i class="fas fa-users text-info"></i> Audience Segmentation</li>
+                            <li><i class="fas fa-chart-line text-warning"></i> Performance Analytics & Optimization</li>
+                            <li><i class="fas fa-paper-plane text-danger"></i> Automated Drip Campaigns</li>
+                            <li><i class="fas fa-bullhorn text-secondary"></i> Promotional & Transactional Emails</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+        <!-- Clients Section -->
+        <section id="clients" class="container text-center" data-aos="fade-up">
+            <div class="container overflow-hidden">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 position-relative">
+                        <div class="d-flex flex-nowrap align-items-center clients-slider " id="clientSlider">
+                            <div class="d-flex flex-nowrap gap-4">
+                                <img src="client1.png" class="img-fluid client-logo" alt="Client 1">
+                                <img src="client2.png" class="img-fluid client-logo" alt="Client 2">
+                                <img src="client3.png" class="img-fluid client-logo" alt="Client 3">
+                                <img src="client4.png" class="img-fluid client-logo" alt="Client 4">
+                                <img src="client5.png" class="img-fluid client-logo" alt="Client 5">
+                                <img src="client6.png" class="img-fluid client-logo" alt="Client 6">
+                                <img src="client7.png" class="img-fluid client-logo" alt="Client 7">
+                                <img src="client8.png" class="img-fluid client-logo" alt="Client 8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                let container = document.querySelector("#clientSlider .d-flex");
+                let logos = document.querySelectorAll(".client-logo");
+                let logoWidth = logos[0].offsetWidth + 16; // Include gap
+                let index = 0;
+
+                setInterval(() => {
+                    container.style.transition = "transform 0.5s ease-in-out";
+                    container.style.transform = `translateX(-${logoWidth}px)`;
+
+                    setTimeout(() => {
+                        container.appendChild(container.firstElementChild); // Move first logo to the end
+                        container.style.transition = "none";
+                        container.style.transform = "translateX(0)";
+                    }, 500);
+                }, 2000);
+            });
+        </script>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container my-5 text-center" data-aos="fade-up">
+            <div class="container">
+                <div class="row justify-content-center align-items-center bg-white py-5 gx-5 px-lg-5 uf-contact-form-02-body my-4">
+                    <div class="col-md-6">
+                        <h2 class="contact-title text-uppercase fw-bold text-dark border-bottom pb-2">Contact Us</h2>
+                    
+                        <form id="contactForm" class="mt-4">
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-semibold d-block text-start">Email Address</label>
+                                <input type="email" class="form-control custom-input" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-semibold d-block text-start">Your Name</label>
+                                <input type="text" class="form-control custom-input" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-semibold d-block text-start">Your Message</label>
+                                <textarea class="form-control custom-input" id="message" name="message" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-lg custom-btn text-uppercase w-100">Send Message</button>
+                        </form>
+                    
+                        <p id="formResponse" class="mt-3"></p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="supports.png" alt="Support" class="uf-img-contact-form-02 pt-4 d-md-block d-none">
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+            <div class="container text-center">
+                <div class="row g-1 text-center" > <!-- Reduced gutter space -->
+                    <!-- Company Info -->
+                    <div class="col-md-4 mb-2 text-start">
+                        <h5 class="fw-bold">Octa Coders</h5>
+                        <p>Pune, Maharashtra, India</p>
+                        <p><a href="mailto:contact@octacoders.com" class="text-white text-decoration-none">contact@octacoders.com</a></p>
+                        <!-- WhatsApp Icon -->
+                        <p class="mt-2">
+                            <a class="btn btn-success ms-2" onclick="openWhatsApp()">
+                                <i class="fab fa-whatsapp"></i> WhatsApp Us
+                            </a>
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-md-4 mb-1 text-start">
+                        <h5 class="fw-bold">Quick Links</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+                            <li><a href="#clients" class="text-white text-decoration-none">Clients</a></li>
+                            <li><a href="#testimonials" class="text-white text-decoration-none">Testimonials</a></li>
+                            <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="col-md-4 mb-1 text-start">
+                        <h5 class="fw-bold">Services</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#web-development" class="text-white text-decoration-none">Web Development</a></li>
+                            <li><a href="#ecommerce" class="text-white text-decoration-none">eCommerce Solutions</a></li>
+                            <li><a href="#mobile-apps" class="text-white text-decoration-none">Mobile App Development</a></li>
+                            <li><a href="#seo-marketing" class="text-white text-decoration-none">SEO & Digital Marketing</a></li>
+                            <li><a href="#video-editing" class="text-white text-decoration-none">Video Editing & Ads</a></li>
+                            <li><a href="#graphic-design" class="text-white text-decoration-none">Graphic Design</a></li>
+                            <li><a href="#payment-integration" class="text-white text-decoration-none">Payment Integration</a></li>
+                            <li><a href="#maintenance" class="text-white text-decoration-none">Web & App Maintenance</a></li>
+                            <li><a href="#email-marketing" class="text-white text-decoration-none">Email Marketing</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Social Links -->
+                    <!-- <div class="col-md-3 mb-1 text-start">
+                        <h5 class="fw-bold">Follow Us</h5>
+                        <a href="https://wa.me/917498665993" target="_blank" class="text-white me-2"><i class="fab fa-whatsapp fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/company/octa-coders/" target="_blank" class="text-white me-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="https://www.instagram.com/octacoders" target="_blank" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+                    </div> -->
+                </div>
+
+                <hr class="bg-light my-2"> <!-- Reduced spacing here -->
+
+                <p class="mb-0">&copy; 2025 Octa Coders | All Rights Reserved.</p>
+            </div>
+        </footer>
+
+
+    </div>
+
+      <!-- CSS for Video Preloader -->
+    <style>
+        #preloader { position: fixed;width: 100%;height: 100%;background: #000;display: flex;justify-content: center;align-items: center;z-index: 9999;}
+        #preloader video { width: 80%;  max-width: 600px;}
+    </style>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        document.addEventListener("contextmenu", function (e) { e.preventDefault(); }); // Disable right-click
+    </script>
+    <!-- JavaScript to Hide Preloader After Video Ends -->
+    <script>
+        window.addEventListener("load", function() {
+            let preloaderVideo = document.getElementById("preloader-video");
+            preloaderVideo.onended = function() {
+                document.getElementById("preloader").style.display = "none";
+                document.getElementById("main-content").style.display = "block";
+            };
+        });
+    </script>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            
+            let formResponse = document.getElementById("formResponse");
+            let formData = new FormData(this);
+            
+            let googleFormURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdrkPVNA3XNDLjfUYzjMLG96GgJjubW0NDusvD-ttwy8afUvg/formResponse";
+            
+            let postData = new URLSearchParams();
+            postData.append("entry.715943269", formData.get("email"));
+            postData.append("entry.962192278", formData.get("name"));
+            postData.append("entry.1032257789", formData.get("message"));
+
+            fetch(googleFormURL, {
+                method: "POST",
+                body: postData,
+                mode: "no-cors"
+            }).then(() => {
+                formResponse.innerHTML = '<div class="alert alert-success">Your message has been sent successfully!</div>';
+                document.getElementById("contactForm").reset();
+            }).catch(() => {
+                formResponse.innerHTML = '<div class="alert alert-danger">Error sending message. Please try again.</div>';
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll(".dropdown-item").forEach(item => {
+                item.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute("href").substring(1);
+                    document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+                });
+            });
+        });
+    </script>
+    <script>
+        function openWhatsApp() {
+            let phone = "917498665993";
+            let message = "Hello, I need service";
+            let appURL = `whatsapp://send?phone=${phone}&text=${encodeURIComponent(message)}`;
+            let webURL = `https://web.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
+    
+            if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+                // Open WhatsApp app on mobile
+                window.location.href = appURL;
+            } else {
+                // Open WhatsApp Web on desktop
+                window.open(webURL, "_blank");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
